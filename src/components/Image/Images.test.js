@@ -8,6 +8,4 @@ describe('Image', () => {
         const image = screen.getAllByRole('img');
         expect(image.length).toBe(2);
     });
-
-    
 })
